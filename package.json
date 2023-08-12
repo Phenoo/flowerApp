@@ -1,0 +1,37 @@
+{
+  "name": "flowers",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-navigation/bottom-tabs": "^6.5.8",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
+    "@sanity/client": "^6.4.3",
+    "@sanity/image-url": "^1.0.2",
+    "expo": "~49.0.5",
+    "expo-font": "^11.4.0",
+    "expo-splash-screen": "^0.20.5",
+    "expo-status-bar": "~1.6.0",
+    "lodash": "^4.17.21",
+    "lottie-ios": "^4.2.0",
+    "lottie-react-native": "^5.1.6",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-onboarding-swiper": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.14",
+    "@types/react-native-onboarding-swiper": "^1.1.4",
+    "react-native-url-polyfill": "^2.0.0",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
